@@ -1,7 +1,6 @@
 name: 'Merged PR Tracker'
 description: 'Append a PR number of merged pull requests into PR description of the base branch.'
 author: 'takuya-kikuchi'
-inputs:
 runs:
   using: 'node12'
   main: 'dist/index.js'
